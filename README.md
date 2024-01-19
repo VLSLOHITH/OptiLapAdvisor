@@ -102,3 +102,16 @@ Cluster2 population:32.96
 
 Cluster1 population:31.83
 
+Done the Principal Component Analysis for the visualization of cluster and how the features are dominating the others.
+
+Scree Plot:
+
+![Screenshot 2024-01-19 220812](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/674696f0-9a6f-43b1-9cf7-4f955ff0809d)
+
+Here, from the scree plot we can see that the "PC1" have percentage and mainly dependent variable in the cluster and next to that is "PC2". So, by using both the PC1 and PC2 we can visualize the clustering. 
+
+Visualizing the Clusters in 2D Scatter Plot using the PCA:
+
+![Screenshot 2024-01-19 221018](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c3f47ad5-f9e0-4597-9638-0e8ebc99535f)
+
+
