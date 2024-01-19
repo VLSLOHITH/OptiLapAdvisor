@@ -78,6 +78,7 @@ ii)Dendogram
 Here, it is unclear that where the elbow is, we cant find the number of clusters from this but from the dendogram plot we can say that the inter clustering is either 3 or 4.
 
 2.Checking the Silhouette Score and CH Score.
+
 For the good cluster both the Silhouette Score and CH Score is maximum and for the "3" clusters it is max when compared with "4".
 for n_clusters=3
 silhouette_score: 0.33397633394771564
