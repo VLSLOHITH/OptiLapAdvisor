@@ -19,3 +19,4 @@ Analyzed the data visually using the matplotlib and seaborn.
 ### 1.Analysis of renewed laptops correlation with other features
 
 ![Screenshot 2024-01-19 163628](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/76b6e7f9-0e71-414e-a056-e4c7346bb901)
+![Screenshot 2024-01-19 163854](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/777ab809-67c8-492a-8261-4c55dec50cf0)
