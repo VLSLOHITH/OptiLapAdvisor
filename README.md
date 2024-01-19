@@ -81,11 +81,24 @@ Here, it is unclear that where the elbow is, we cant find the number of clusters
 
 For the good cluster both the Silhouette Score and CH Score is maximum and for the "3" clusters it is max when compared with "4".
 for n_clusters=3
+
 silhouette_score: 0.33397633394771564
+
 calinski_harabasz_score: 150.86539712098767
 
 for n_clusters=4
+
 silhouette_score: 0.3254319240222683
+
 calinski_harabasz_score: 135.13784192329877
 
 <h3>So, we are considering 3 clusters and it will also signifies the three generation laptops and we will see this at the end of this model.</h3> 
+
+According to research the size of a good cluster should be between 5% and 35% of total size.
+
+Cluster0 population:29.86
+
+Cluster2 population:32.96
+
+Cluster1 population:31.83
+
