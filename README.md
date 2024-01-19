@@ -44,5 +44,9 @@ From the off-diagonal graphs in the (Price vs Rating) graph, one can observe a h
 
 <h3 color="blue">From the above graphs one can observe that there are more number of "8 GB" RAM ,"512 GB" Storage,"15.6" inches screen size, "Non Gaming","No Finger Print Featured", "No OLED Featured", "No SSD Featured","New",around "4 points" Rated,around "50,000 Rs" priced Laptops.<h3>
 
+## Data Preprocessing:
+Through Label Encoding, the ordinal categorical values of processors are transformed into numerical representations, taking into account their Thermal Design Power (TDP) ratings and categorizing them into three classes(Low Generation, Mid Generation, High Generation.)
+![Screenshot 2024-01-19 173754](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/11944a47-cf59-46e6-8af8-0fc12b02a490)
+![Screenshot 2024-01-19 173813](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/0dd04a92-d37e-4e13-a310-43cce3207d88)
 
 
