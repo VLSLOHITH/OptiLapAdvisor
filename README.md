@@ -13,7 +13,8 @@ After extracting laptop data from the HTML pages, the information was initially 
 The data within the dataframe remains in a raw format, comprising a mix of numerical and string values. The next step involves parsing the data into distinct numerical and categorical forms. Subsequently, the data will be converted into their respective data types and updated in a series of dataframes. Additionally, a check will be conducted for null values within the dataframe. If a significant number of null values are identified, they will be replaced with the median value. For cases where only a few null values are present, the respective rows containing null values will be deleted. In instances where a substantial number of null values are found, the corresponding columns will be removed.
 Tools used: re, pandas, numpy
 
-## Data Pre-Analysis:
+## Data Pre-Analysis:![Screenshot 2024-01-19 170117](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/d52af99a-a61b-4daf-8d34-8a2e12cebf25)
+
 Analyzed the data visually using the matplotlib and seaborn.
 
 ### 1.Analysis of renewed laptops correlation with other features
@@ -31,4 +32,4 @@ From the analysis Renewed laptops lack gaming capabilities and fingerprint featu
 ![Screenshot 2024-01-19 165545](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/fab8f837-a3df-4cba-be9a-ca481d62d31c)
 ![Screenshot 2024-01-19 170020](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/ae151a87-7428-4b35-89f6-bc7b2819d016)
 ![Screenshot 2024-01-19 170052](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/a019c9e9-7c48-4b8b-9693-912314eb00bb)
-
+![Screenshot 2024-01-19 170117](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/a1e7e9ce-7399-4e0e-98a3-cc42e44239a5)
