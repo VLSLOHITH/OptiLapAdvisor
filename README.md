@@ -65,13 +65,12 @@ Scaling the data to prevent any single feature from dominating others; for this 
 ### Deciding number of clusters
 1.Plotting the Bent elbow,Dendogram to check for the number of clusters.
 
- Bent Elbow curve
- 
- ![Screenshot 2024-01-19 215428](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/53cadb99-61b8-48c9-9202-5270f95af315)
- Here, it is unclear that where the elbow is, we cant find the number of clusters from this.
+Bent Elbow curve
+![Screenshot 2024-01-19 215428](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/53cadb99-61b8-48c9-9202-5270f95af315)
+Here, it is unclear that where the elbow is, we cant find the number of clusters from this.
 
- Dendogram
- ![Screenshot 2024-01-19 215600](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c963f42c-cc5a-4380-b286-b0c5851e8724)
+Dendogram
+![Screenshot 2024-01-19 215600](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c963f42c-cc5a-4380-b286-b0c5851e8724)
 
 
 Here, from the dendogram plot we can say that the inter clustering is either 3 or 4.
