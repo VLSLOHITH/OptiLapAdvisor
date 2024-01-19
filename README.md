@@ -59,3 +59,5 @@ Here, we are not excluding the outliers from the Processor and Storage Features.
 
 We have used IQR method for detecting the outliers and excluding them from the data which we use for our model.
 
+## Creating the Model:
+We employ clustering to identify laptops that closely match the requirements sought by the finder. Specifically, we utilize Agglomerative Hierarchical Clustering instead of K-means due to its iterative nature. In Agglomerative Hierarchical Clustering, clusters are formed every time the data is updated, offering a fresh approach to grouping. This differs from K-means, which stores previous clusters, requiring us to then determine which cluster aligns with our specified requirements.
