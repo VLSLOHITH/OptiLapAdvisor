@@ -17,4 +17,5 @@ Tools used: re, pandas, numpy
 Analyzed the data visually using the matplotlib and seaborn.
 
 ### 1.Analysis of renewed laptops correlation with other features
-![download](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/240c9028-6f09-4855-8344-39cb067b4aec)
+
+![Screenshot 2024-01-19 163628](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/76b6e7f9-0e71-414e-a056-e4c7346bb901)
