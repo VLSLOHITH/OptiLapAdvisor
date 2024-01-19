@@ -52,7 +52,8 @@ Tools used: Matplotlib, Seaborn
 
 ## Dealing with the Outliers:
 Here, we are exclusively assessing "RAM," "storage," "Size," "Processor Type," and "Price" while omitting consideration for other features. This is because we are solely utilizing these specific features as key factors for our model.
-![Screenshot 2024-01-19 174117](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/973e9b73-20ca-4089-ac94-53171b035d43)
+
+![Screenshot 2024-01-19 203625](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/dd7d572b-77f3-44eb-b35d-b8dec0deea46)
 
 Here, we are not excluding the outliers from the Processor and Storage Features. This decision is based on the nature of these features, which are not continuous. Moreover, the outliers, especially in the case of processors, carry significance. For instance, when comparing mid-generation processors, there are notably fewer instances of both low and high-generation processors. However, these outliers matter, particularly when individuals are interested in purchasing laptops within those specific sections. Similarly, in the case of storage features, there is a higher prevalence of 512GB laptops compared to 256GB laptops.
 
