@@ -37,5 +37,7 @@ From the analysis Renewed laptops lack gaming capabilities and fingerprint featu
 ![Screenshot 2024-01-19 170117](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/a1e7e9ce-7399-4e0e-98a3-cc42e44239a5)
 ![Screenshot 2024-01-19 170248](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c425023a-3162-4c5a-86f1-e6c08d169036)
 
+### 3.In the Final Part of Data Analysis, We can correlate the Remaining Fetures using Pair Wise plot.
+![download](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/88d02f4a-7bdb-42fe-9449-bfa687849cc8)
 
 
