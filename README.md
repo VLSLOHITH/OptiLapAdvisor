@@ -42,7 +42,7 @@ From the analysis Renewed laptops lack gaming capabilities and fingerprint featu
 ![Screenshot 2024-01-19 172514](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c5dd434c-031d-4276-ac2d-2edb4fc4668c)
 From the off-diagonal graphs in the (Price vs Rating) graph, one can observe a higher density at the (price, rating) value around (50,000, 4). In the (Renewed vs Price) graph, renewed laptops are predominantly priced below 50,000 Rs. In the (Gaming vs Rating, Finger Print vs Rating, OLED vs Rating) graphs, laptops featuring gaming capabilities, fingerprint recognition, and OLED displays exhibit a distribution with high ratings, with the minimum rating hovering around "3". In the (Price vs SSD) graph, laptops without SSDs are priced less than 50,000 Rs. Lastly, in the (Size vs Price) graph, most laptops with a size of 15.6 inches fall within the price range of 25,000 to 50,000 Rs.
 
-<font color="white">From the above graphs one can observe that there are more number of "8 GB" RAM ,"512 GB" Storage,"15.6" inches screen size, "Non Gaming","No Finger Print Featured", "No OLED Featured", "No SSD Featured","New",around "4 points" Rated,around "50,000 Rs" priced Laptops.<font>
+<h3 color="blue">From the above graphs one can observe that there are more number of "8 GB" RAM ,"512 GB" Storage,"15.6" inches screen size, "Non Gaming","No Finger Print Featured", "No OLED Featured", "No SSD Featured","New",around "4 points" Rated,around "50,000 Rs" priced Laptops.<h3>
 
 
 
