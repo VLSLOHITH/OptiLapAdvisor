@@ -33,3 +33,4 @@ From the analysis Renewed laptops lack gaming capabilities and fingerprint featu
 ![Screenshot 2024-01-19 170020](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/ae151a87-7428-4b35-89f6-bc7b2819d016)
 ![Screenshot 2024-01-19 170052](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/a019c9e9-7c48-4b8b-9693-912314eb00bb)
 ![Screenshot 2024-01-19 170117](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/a1e7e9ce-7399-4e0e-98a3-cc42e44239a5)
+![Screenshot 2024-01-19 170117](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/020afc69-69a9-4343-bbd1-347f6004477f)
