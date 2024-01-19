@@ -22,3 +22,16 @@ Analyzed the data visually using the matplotlib and seaborn.
 ![Screenshot 2024-01-19 163854](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/777ab809-67c8-492a-8261-4c55dec50cf0)
 
 From the analysis Renewed laptops lack gaming capabilities and fingerprint features, and OLED displays are also uncommon. However, a higher percentage of these laptops come equipped with SSDs, and there is also a significant prevalence of renewed laptops with 8 GB of RAM and 256 GB of storage.Based on this analysis, it becomes evident that the majority of renewed laptops are characterized by average features, and their prices are considerably low (with a maximum of around 40,000 and an average around 20,000), especially when compared to new ones. Additionally, Lenovo emerges as the most prevalent brand among renewed laptops.
+
+### 2.Analysis of Brand.
+![Screenshot 2024-01-19 165020](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/3c6a0646-cf91-4f20-9812-78c7d17999e3)
+![Screenshot 2024-01-19 165119](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/aae3f8b9-4578-4e69-a32c-65b489e00ac5)
+![Screenshot 2024-01-19 165211](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/fb85eda3-c1c5-47a8-a33c-055e06b72eba)
+![Screenshot 2024-01-19 165318](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/e5813273-bbdc-4f0f-828b-e2dec00cdb18)
+![Screenshot 2024-01-19 165421](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/ff0428a2-14![Screenshot 2024-01-19 170052](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/d9a93fed-fa91-4e6c-ba55-c05812946aa5)
+96-40bb-8b65-30d5a4d3d72f)
+![Screenshot 2024-01-19 165545](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/fab8f837-a3df-4cba-be9a-ca481d62d31c)
+![Screenshot 2024-01-19 165545](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/19a05a8d-fef8-4fc3-9b88-421dccc45597)
+![Screenshot 2024-01-19 170020](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/ae151a87-7428-4b35-89f6-bc7b2819d016)
+![Screenshot 2024-01-19 170052](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/a019c9e9-7c48-4b8b-9693-912314eb00bb)
+![Screenshot 2024-01-19 170052](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/d82300c3-8efd-4cf4-8a04-8ea3c35f9bce)
