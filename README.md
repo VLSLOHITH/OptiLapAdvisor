@@ -61,7 +61,6 @@ We have used IQR method for detecting the outliers and excluding them from the d
 
 ## Creating the Model:
 We employ clustering to identify laptops that closely match the requirements sought by the finder. Specifically, we utilize Agglomerative Hierarchical Clustering instead of K-means due to its iterative nature. In Agglomerative Hierarchical Clustering, clusters are formed every time the data is updated, offering a fresh approach to grouping. This differs from K-means, which stores previous clusters, requiring us to then determine which cluster aligns with our specified requirements.
-
 Scaling the data to prevent any single feature from dominating others; for this purpose, we employed standardization, ensuring a mean of 0 and a maximum standard deviation of 1.
 ### Deciding number of clusters
 1.Plotting the Bent elbow,Dendogram to check for the number of clusters.
