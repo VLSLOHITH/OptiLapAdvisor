@@ -114,4 +114,43 @@ Visualizing the Clusters in 2D Scatter Plot using the PCA:
 
 ![Screenshot 2024-01-19 221018](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c3f47ad5-f9e0-4597-9638-0e8ebc99535f)
 
+Tools used: AgglomerativeClustering, silhouette_score, calinski_harabasz_score, StandardScalar, scipy, PCA.
+
+## Fitting the new data to the Agglomerative Clustering Model.
+
+Adding New data to the existing data for the prediction.
+
+![Screenshot 2024-01-19 221810](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/3c82f909-9d4f-4da6-98b8-3543623c39a8)
+
+Result:
+
+![Screenshot 2024-01-19 221912](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/afaeaad0-fc8e-413c-8cd0-3b2070aa8936)
+
+### Filtering.
+
+Assign the values if you want to filter the perticular feature in their respective Tab else leave it as None.
+
+![Screenshot 2024-01-19 222417](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c9c53400-5cb0-4cf6-b088-3c6525354208)
+
+Final Result after filtering:
+
+![Screenshot 2024-01-19 222504](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/78015362-cac1-4389-824b-fa183f8edee0)
+
+cluster 1 =>  mix of low end and mid generation.
+
+cluster 2 => mix of mid and high generation.
+
+cluster 3 => mid generation.
+
+<font color='red'>Note: If you want the High Generation laptops then please check even the outlier cluster because this cluster mostly consisits with that laptops<font>
+
+![Screenshot 2024-01-19 222638](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/4fe5dc2d-766a-47fb-bad0-3f9fa7cdb319)
+
+## Final Distribution:
+
+![Screenshot 2024-01-19 222931](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/afd875ee-85a1-4077-bfab-164454a262fc)
+
+This represents the distribution of our recommended laptops, and upon closer examination, it is evident that they follow a normal distribution with minimal outliers. Furthermore, our selection process has successfully identified laptops that align closely with the specified requirements.
+
+Hence, a sucessfull model!!
 
