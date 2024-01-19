@@ -61,3 +61,27 @@ We have used IQR method for detecting the outliers and excluding them from the d
 
 ## Creating the Model:
 We employ clustering to identify laptops that closely match the requirements sought by the finder. Specifically, we utilize Agglomerative Hierarchical Clustering instead of K-means due to its iterative nature. In Agglomerative Hierarchical Clustering, clusters are formed every time the data is updated, offering a fresh approach to grouping. This differs from K-means, which stores previous clusters, requiring us to then determine which cluster aligns with our specified requirements.
+
+Scaling the data to prevent any single feature from dominating others; for this purpose, we employed standardization, ensuring a mean of 0 and a maximum standard deviation of 1.
+### Deciding number of clusters
+1.Plotting the Bent elbow,Dendogram to check for the number of clusters.
+
+ Bent Elbow curve
+ ![download](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/225ff029-e3b5-4dfc-9ddd-703b69ebe2f5)
+ Here, it is unclear that where the elbow is, we cant find the number of clusters from this.
+
+ Dendogram
+![download](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/61ba6b9d-a9a4-47c7-8e93-0e9f71cbab92)
+Here, from the dendogram plot we can say that the inter clustering is either 3 or 4.
+
+2.Checking the Silhouette Score and CH Score.
+For the good cluster both the Silhouette Score and CH Score is maximum and for the "3" clusters it is max when compared with "4".
+for n_clusters=3
+silhouette_score: 0.33397633394771564
+calinski_harabasz_score: 150.86539712098767
+
+for n_clusters=4
+silhouette_score: 0.3254319240222683
+calinski_harabasz_score: 135.13784192329877
+
+<h3>So, we are considering 3 clusters and it will also signifies the three generation laptops and we will see this at the end of this model.</h3> 
