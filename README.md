@@ -116,7 +116,7 @@ Visualizing the Clusters in 2D Scatter Plot using the PCA:
 
 Tools used: AgglomerativeClustering, silhouette_score, calinski_harabasz_score, StandardScalar, scipy, PCA.
 
-## Fitting the new data to the Agglomerative Clustering Model.
+## Applying the new data to the Agglomerative Clustering Model and utilizing it for the laptop search.
 
 Adding New data to the existing data for the prediction.
 
