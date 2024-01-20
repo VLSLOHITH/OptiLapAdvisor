@@ -120,11 +120,13 @@ Tools used: AgglomerativeClustering, silhouette_score, calinski_harabasz_score, 
 
 Adding New data to the existing data for the prediction.
 
-![Screenshot 2024-01-19 221810](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/3c82f909-9d4f-4da6-98b8-3543623c39a8)
+![Screenshot 2024-01-20 122110](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/2310293b-2b12-4c0d-8c26-83b358ae03ec)
 
+Here, we are seeking recommendations for a mid-generation laptop suitable for coding, office tasks, and gaming. Our specifications include a preference for 8 GB RAM, 512 GB storage, a 15.6-inch screen size, and a budget of around Rs. 45,000
 Result:
 
-![Screenshot 2024-01-19 221912](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/afaeaad0-fc8e-413c-8cd0-3b2070aa8936)
+![Screenshot 2024-01-20 122131](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/0d67443c-d920-4a4e-ae18-e9c4703f15aa)
+
 
 ### Filtering.
 
@@ -132,9 +134,13 @@ Assign the values if you want to filter the perticular feature in their respecti
 
 ![Screenshot 2024-01-19 222417](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c9c53400-5cb0-4cf6-b088-3c6525354208)
 
+
+Here, we are specifically filtering for a gaming laptop under the Lenovo brand.
+
 Final Result after filtering:
 
-![Screenshot 2024-01-19 222504](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/78015362-cac1-4389-824b-fa183f8edee0)
+![Screenshot 2024-01-20 122225](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/b608e3a7-ec13-4b8a-89a0-b37e1b6a9ee0)
+
 
 cluster 1 =>  mix of low end and mid generation.
 
@@ -148,7 +154,8 @@ cluster 3 => mid generation.
 
 ## Final Distribution:
 
-![Screenshot 2024-01-19 222931](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/afd875ee-85a1-4077-bfab-164454a262fc)
+![Screenshot 2024-01-20 122322](https://github.com/VLSLOHITH/OptiLapAdvisor/assets/84633352/c9d588e1-0c93-40da-8f45-9aea8dcaec32)
+
 
 This represents the distribution of our recommended laptops, and upon closer examination, it is evident that they follow a normal distribution with minimal outliers. Furthermore, our selection process has successfully identified laptops that align closely with the specified requirements.
 
