@@ -4,9 +4,9 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AgglomerativeClustering
 
-Data_dup=pd.read_excel(r"UI/Standardized_Data.xlsx")
-outlier_data=pd.read_excel(r"UI\Outlier_Data.xlsx")
-Data=pd.read_excel(r"UI\Cleaned_Data.xlsx")
+Data_dup=pd.read_excel(r"/workspaces/OptiLapAdvisor/UI/Standardized_Data.xlsx")
+outlier_data=pd.read_excel(r"/workspaces/OptiLapAdvisor/UI/Outlier_Data.xlsx")
+Data=pd.read_excel(r"/workspaces/OptiLapAdvisor/UI/Cleaned_Data.xlsx")
 Data_dup.set_index(Data_dup.columns[0],inplace=True)
 outlier_data.set_index(outlier_data.columns[0],inplace=True)
 Data.set_index(Data.columns[0],inplace=True)
@@ -57,13 +57,13 @@ if st.checkbox("Filter"):
     RAM_filter=  st.selectbox("RAM",Data["RAM"].unique(),index=None)
     Storage_filter=  st.selectbox("Storage",Data["Storage"].unique(),index=None)
     Size_filter=  st.selectbox("Size",Data["Size"].unique(),index=None)
-    Gaming_filter=  st.selectbox("Gaming",[0,1],index=None)
-    FingerPrint_filter= st.selectbox("Finger Print",[0,1],index=None)
-    OLED_filter= st.selectbox("OLED",[0,1],index=None)
-    SSD_filter= st.selectbox("SSD",[0,1],index=None)
-    Renewed_filter= st.selectbox("Renewed",[0,1],index=None)
+    Gaming_filter=  st.selectbox("Gaming",[False,True],index=None)
+    FingerPrint_filter= st.selectbox("Finger Print",[False,True],index=None)
+    OLED_filter= st.selectbox("OLED",[False,True],index=None)
+    SSD_filter= st.selectbox("SSD",[False,True],index=None)
+    Renewed_filter= st.selectbox("Renewed",[False,True],index=None)
     flag=st.selectbox("Generation",["High_Gen","Mid_Gen","Low_Gen"],index=None)
-    PType_filter= Gen[flag] if flag else None
+    PType_filter= webpage().Gen[flag] if flag else None
     Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Result)
     Final_Result
 else:
