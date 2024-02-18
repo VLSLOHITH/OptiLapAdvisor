@@ -11,6 +11,8 @@ Data_dup.set_index(Data_dup.columns[0],inplace=True)
 outlier_data.set_index(outlier_data.columns[0],inplace=True)
 Data.set_index(Data.columns[0],inplace=True)
 
+st.title("OptiLapAdvisor")
+
 class webpage():
     Gen={"High_Gen":3,"Mid_Gen":2,"Low_Gen":1}
     Gen_option=Gen[st.sidebar.selectbox("Laptop_Generation",["High_Gen","Mid_Gen","Low_Gen"],index=1)]
