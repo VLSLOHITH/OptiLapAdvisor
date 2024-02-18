@@ -4,9 +4,9 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AgglomerativeClustering
 
-Data_dup=pd.read_excel(r"UI/Standardized_Data.xlsx")
-outlier_data=pd.read_excel(r"UI\Outlier_Data.xlsx")
-Data=pd.read_excel(r"UI\Cleaned_Data.xlsx")
+Data_dup=pd.read_excel(r"/workspace/OptiLapAdvisor/UI/Standardized_Data.xlsx")
+outlier_data=pd.read_excel(r"/workspace/OptiLapAdvisor/UI/Outlier_Data.xlsx")
+Data=pd.read_excel(r"/workspace/OptiLapAdvisor/UI/Cleaned_Data.xlsx")
 Data_dup.set_index(Data_dup.columns[0],inplace=True)
 outlier_data.set_index(outlier_data.columns[0],inplace=True)
 Data.set_index(Data.columns[0],inplace=True)
@@ -63,7 +63,7 @@ if st.checkbox("Filter"):
     SSD_filter= st.selectbox("SSD",[0,1],index=None)
     Renewed_filter= st.selectbox("Renewed",[0,1],index=None)
     flag=st.selectbox("Generation",["High_Gen","Mid_Gen","Low_Gen"],index=None)
-    PType_filter= Gen[flag] if flag else None
+    PType_filter=webpage().Gen[flag] if flag else None
     Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Result)
     Final_Result
 else:
