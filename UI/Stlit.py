@@ -4,9 +4,9 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AgglomerativeClustering
 
-Data_dup=pd.read_excel(r"C:\Users\sailo\Downloads\ML models\OptiLapAdvisor\UI\Standardized_Data.xlsx")
-outlier_data=pd.read_excel(r"C:\Users\sailo\Downloads\ML models\OptiLapAdvisor\UI\Outlier_Data.xlsx")
-Data=pd.read_excel(r"C:\Users\sailo\Downloads\ML models\OptiLapAdvisor\UI\Cleaned_Data.xlsx")
+Data_dup=pd.read_excel(r"UI/Standardized_Data.xlsx")
+outlier_data=pd.read_excel(r"UI\Outlier_Data.xlsx")
+Data=pd.read_excel(r"UI\Cleaned_Data.xlsx")
 Data_dup.set_index(Data_dup.columns[0],inplace=True)
 outlier_data.set_index(outlier_data.columns[0],inplace=True)
 Data.set_index(Data.columns[0],inplace=True)
