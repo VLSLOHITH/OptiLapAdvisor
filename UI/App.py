@@ -63,7 +63,7 @@ if st.checkbox("Filter"):
     FingerPrint_filter= st.selectbox("Finger Print",[False,True],index=None)
     OLED_filter= st.selectbox("OLED",[False,True],index=None)
     SSD_filter= st.selectbox("SSD",[False,True],index=None)
-    Renewed_filter= st.selectbox("Renewed",[False,True],index=None)
+    Renewed_filter= st.selectbox("Renewed",[0,1],index=None)
     flag=st.selectbox("Generation",["High_Gen","Mid_Gen","Low_Gen"],index=None)
     PType_filter= webpage().Gen[flag] if flag else None
     Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Result)
