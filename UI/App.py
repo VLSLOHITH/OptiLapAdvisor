@@ -86,7 +86,7 @@ else:
 st.subheader("Explore the laptops below to see if any interest you, even though you haven't requested them")
 if st.checkbox("Laptops which are very low or very high conifgurations."):
     st.header("Extream Laptops")
-    Outlier_Data
+    Overal_Data[Overal_Data["cluster"]==4][:]
 
 
 
