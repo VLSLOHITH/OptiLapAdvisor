@@ -42,13 +42,16 @@ try:
     Result=Overal_Data[Overal_Data["Cluster"]==Cluster_Number]
     
     def Bool_(value,feature):
-        if value==0:
-            return (Overal_Data[feature]==value)
-        return not(value) or (bool(value) and (Overal_Data[feature]==value))
+        if feature!="Price":
+            if value==0:
+                return (Overal_Data[feature]==value)
+            return not(value) or (bool(value) and (Overal_Data[feature]==value))
+        else:
+            return Overal_Data[feature]>=value[0] and Overal_Data[feature]<=value[1]
     
-    def Filter(Brand_,Processor_,RAM_,Storage_,Size_,Gaming_,FingerPrint_,OLED_,SSD_,Renewed_,PType_,data):
-        Values=[Brand_,Processor_,RAM_,Storage_,Size_,Gaming_,FingerPrint_,OLED_,SSD_,Renewed_,PType_]
-        Variables=["Brand","Processor","RAM","Storage","Size","Gaming","FingerPrint","OLED","SSD","Renewed","PType"]
+    def Filter(Brand_,Processor_,RAM_,Storage_,Size_,Gaming_,FingerPrint_,OLED_,SSD_,Renewed_,PType_,Price_,data):
+        Values=[Brand_,Processor_,RAM_,Storage_,Size_,Gaming_,FingerPrint_,OLED_,SSD_,Renewed_,PType_,Price_]
+        Variables=["Brand","Processor","RAM","Storage","Size","Gaming","FingerPrint","OLED","SSD","Renewed","PType","Price"]
         Bool_flag=True
         for i,j in zip(Values,Variables):
             Bool_flag = Bool_flag & Bool_(i,j)
@@ -77,7 +80,8 @@ try:
         Renewed_filter= Yes_No(st.selectbox("Renewed",["No","Yes"],index=None))
         flag=st.selectbox("Generation",["High_Gen","Mid_Gen","Low_Gen"],index=None)
         PType_filter= webpage().Gen[flag] if flag else None
-        Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Result)
+        Price_filter=list(st.slider("Range of Price",value=(Overal_Data["Price"].min(),Overal_Data["Price"].max())))
+        Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Price_filter,Result)
         st.header("Result")
         st.dataframe(Final_Result.iloc[:,:-2],hide_index=True)
     else:
