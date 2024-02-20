@@ -12,7 +12,7 @@ try:
     Outlier_Data.set_index(Outlier_Data.columns[0],inplace=True)
     Overal_Data.set_index(Overal_Data.columns[0],inplace=True)
     
-    st.title("OptiLapAdvisor")
+   st.title("OptiLapAdvisor")
     st.info("Please refer to the sidebar to choose the features you need. The ones listed initially are the default options.",icon="ℹ")
     class webpage():
         Gen={"High_Gen":3,"Mid_Gen":2,"Low_Gen":1}
