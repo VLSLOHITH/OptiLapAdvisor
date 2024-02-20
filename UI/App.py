@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import AgglomerativeClustering
+st.set_page_config(layout='wide')
 try:
     Overal_Data=pd.read_excel(r"UI/Cleaned_Data.xlsx")
     Standardized_Data=pd.read_excel(r"UI/Standardized_Data.xlsx")
@@ -78,15 +79,15 @@ try:
         PType_filter= webpage().Gen[flag] if flag else None
         Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Result)
         st.header("Result")
-        st.dataframe(Final_Result.iloc[:,:-2],hide_index=True,wide_mode=True)
+        st.dataframe(Final_Result.iloc[:,:-2],hide_index=True)
     else:
         st.header("Result")   
-        st.dataframe(Result.iloc[:,:-2],hide_index=True,wide_mode=True)
+        st.dataframe(Result.iloc[:,:-2],hide_index=True)
     
     st.subheader("Explore the laptops below to see if any interest you, even though you haven't requested them")
     if st.checkbox("Laptops which are very low or very high conifgurations."):
         st.header("Extream Laptops")
-        st.dataframe(Overal_Data[Overal_Data["Cluster"]==4].iloc[:,:-2],hide_index=True,wide_mode=True)
+        st.dataframe(Overal_Data[Overal_Data["Cluster"]==4].iloc[:,:-2],hide_index=True)
 
 except:
     st.error("There is an error,we will look into it",icon="❗")
