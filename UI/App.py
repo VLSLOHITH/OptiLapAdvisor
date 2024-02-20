@@ -39,7 +39,7 @@ Outlier_Data["Cluster"]=N_cluster+1
 Merged=pd.concat([Standardized_Data,Outlier_Data])
 Overal_Data["Cluster"]=Merged["Cluster"]
 Overal_Data.index=Overal_Data["Brand"]
-del(Overal_Data)
+del(Overal_Data["Brand"])
 Result=Overal_Data[Overal_Data["Cluster"]==Cluster_Number]
 
 def Bool_(value,feature):
