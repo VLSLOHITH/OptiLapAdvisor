@@ -78,10 +78,10 @@ if st.checkbox("Filter"):
     PType_filter= webpage().Gen[flag] if flag else None
     Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Result)
     st.header("Result")   
-    st.dataframe(Final_Result[1:][:])
+    st.dataframe(Final_Result[1:3][:])
 else:
     st.header("Result")   
-    st.dataframe(Result[1:][:])
+    st.dataframe(Result[1:3][:])
 
 st.subheader("Explore the laptops below to see if any interest you, even though you haven't requested them")
 if st.checkbox("Laptops which are very low or very high conifgurations."):
