@@ -38,7 +38,6 @@ try:
     Outlier_Data["Cluster"]=N_cluster+1
     Merged=pd.concat([Standardized_Data,Outlier_Data])
     Overal_Data["Cluster"]=Merged["Cluster"]
-    Overal_Data.set_index("Brand",inplace=True)
     Result=Overal_Data[Overal_Data["Cluster"]==Cluster_Number]
     
     def Bool_(value,feature):
@@ -78,16 +77,20 @@ try:
         flag=st.selectbox("Generation",["High_Gen","Mid_Gen","Low_Gen"],index=None)
         PType_filter= webpage().Gen[flag] if flag else None
         Final_Result=Filter(Brand_filter,Processor_filter,RAM_filter,Storage_filter,Size_filter,Gaming_filter,FingerPrint_filter,OLED_filter,SSD_filter,Renewed_filter,PType_filter,Result)
-        st.header("Result")   
+        st.header("Result")
+        Final_result.set_index("Brand",inplace=True)
         st.dataframe(Final_Result.iloc[:,:-2])
     else:
         st.header("Result")   
+        Result.set_index("Brand",inplace=True)
         st.dataframe(Result.iloc[:,:-2])
     
     st.subheader("Explore the laptops below to see if any interest you, even though you haven't requested them")
     if st.checkbox("Laptops which are very low or very high conifgurations."):
         st.header("Extream Laptops")
-        st.dataframe(Overal_Data[Overal_Data["Cluster"]==4].iloc[:,:-2])
+        outlier=Overal_Data[Overal_Data["Cluster"]==4].iloc[:,:-2]
+        outlier.set_index("Brand",inplace=True)
+        st.dataframe(outlier)
 
 except:
     st.error("There is an error,we will look into it",icon="❗")
