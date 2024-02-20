@@ -47,7 +47,7 @@ try:
                 return (Overal_Data[feature]==value)
             return not(value) or (bool(value) and (Overal_Data[feature]==value))
         else:
-            return Overal_Data[feature]>=value[0] and Overal_Data[feature]<=value[1]
+            return (Overal_Data[feature]>=value[0]) & (Overal_Data[feature]<=value[1])
     
     def Filter(Brand_,Processor_,RAM_,Storage_,Size_,Gaming_,FingerPrint_,OLED_,SSD_,Renewed_,PType_,Price_,data):
         Values=[Brand_,Processor_,RAM_,Storage_,Size_,Gaming_,FingerPrint_,OLED_,SSD_,Renewed_,PType_,Price_]
