@@ -81,6 +81,7 @@ Here, it is unclear that where the elbow is, we cant find the number of clusters
 2.Checking the Silhouette Score and CH Score.
 
 For the good cluster both the Silhouette Score and CH Score is maximum and for the "3" clusters it is max when compared with "4".
+
 for n_clusters=3
 
 silhouette_score: 0.33397633394771564
@@ -94,6 +95,14 @@ silhouette_score: 0.3254319240222683
 calinski_harabasz_score: 135.13784192329877
 
 <h3>So, we are considering 3 clusters and it will also signifies the three generation laptops and we will see this at the end of this model.</h3> 
+
+similarly for n_clusers=3 with outliers
+
+silhouette_score: 0.30534640685879416
+
+calinski_harabasz_score: 107.98282682516634
+
+<h3>So,By removing the outliers, we achieved nearly 40% higher accuracy in our results.</h3>
 
 According to research the size of a good cluster should be between 5% and 35% of total size.
 
