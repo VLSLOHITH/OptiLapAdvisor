@@ -13,7 +13,7 @@ try:
     Overal_Data.set_index(Overal_Data.columns[0],inplace=True)
         
     st.title("OptiLapAdvisor")
-    st.markdown("Welcome to our laptop search engine! We make finding your perfect match easy. Our algorithm considers RAM, storage, screen size, and price to pinpoint optimal options. :blue[Worried about compromising? Don't be – we optimize matches to meet all your preferences]. Need something specific? Easily filter your results. Start exploring now!")
+    st.markdown(":orange[Welcome to our laptop search engine! We make finding your perfect match easy. Our algorithm considers RAM, storage, screen size, and price to pinpoint optimal options.] :blue[Worried about compromising? Don't be – we optimize matches to meet all your preferences]. :orange[Need something specific? Easily filter your results. Start exploring now!]")
     st.info("Please refer to the sidebar to choose the features you need. The ones listed initially are the default options.",icon="ℹ")
     class webpage():
         Gen={"High_Gen":3,"Mid_Gen":2,"Low_Gen":1}
